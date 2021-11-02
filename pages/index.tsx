@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             </div>
             <div className="fs-outer">
               <div className="fs-inner">
-                お客様の
+                
               </div>
             </div>
           </div>
