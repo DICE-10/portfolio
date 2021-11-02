@@ -26,9 +26,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="fs-grid m-grid-col-3 fs-wfull ">
-        <div className="fs-outer jc-end fs-mwfull fs-wfull ">
+        <div className="fs-outer jc-center fs-mwfull fs-wfull ">
           <div className="fs-inner fs-aspectVGA-vert fs-w8_12 ">
-            <div className="fs-outer">
+            <div className="fs-outer jc-center">
               <div className="fs-inner fs-talgin-c">
                 <h1 className="ts-4xl font-w-bold">DIRECTION</h1>
                 <span>ディレクション</span>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="fs-outer jc-start fs-mwfull fs-wfull ">
+        <div className="fs-outer jc-center fs-mwfull fs-wfull ">
           <div className="fs-inner fs-aspectVGA-vert fs-w8_12 ">
             <div className="fs-outer jc-center">
               <div className="fs-inner fs-talgin-c">
