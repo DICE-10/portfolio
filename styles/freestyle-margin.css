@@ -1,4 +1,8 @@
 /* 縦margin */
+.fs-mcenter{
+	margin: 0 auto;
+}
+
 .fs-my0{
     margin-top: 0px;
     margin-bottom: 0px;
