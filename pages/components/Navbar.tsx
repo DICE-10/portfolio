@@ -21,17 +21,17 @@ const Navbar = ({ children }: Props) => {
                         </div>
                         <div className="text-black fs-center">
                             <Link href="/">
-                                    <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl">Home</a>
+                                    <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl font-wbold">Home</a>
                             </Link>
                         </div>
                         <div className="text-black fs-center">
                             <Link href="/blog-page">
-                                <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl">Blog</a>
+                                <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl font-wbold">Blog</a>
                             </Link>
                         </div>
                         <div className="text-black fs-center">
                             <Link href="/contact-page">
-                                    <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl">Contact</a>
+                                    <a  className="fs-d-block ts-nodeco fs-py29 fs-tlink-center bg-tran03 txt-tran03 libg-black litxt-whitesmoke ts-2xl font-wbold">Contact</a>
                             </Link>
                         </div>
                     </div>

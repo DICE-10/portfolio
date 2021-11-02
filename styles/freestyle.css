@@ -35,6 +35,12 @@ body{
 .ac-center{
     align-content: center;
 }
+.jc-start{
+    justify-content:start;
+}
+.jc-center{
+    justify-content: center;
+}
 .jc-end{
     justify-content: end;
 }
@@ -76,7 +82,7 @@ body{
 }
 .fs-header{
     /*width: 100vw;*/
-    height: 50px;
+    /*height: 50px;*/
     /*padding: 20px 50px;*/
 }
 
@@ -105,7 +111,7 @@ body{
 
 .fs-outer{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 .fs-inner{
@@ -182,6 +188,34 @@ body{
 .zindex-top{
     z-index: 999;
 }
+
+.img-wapper{
+    position: relative; 
+}
+.img-wapper.img-style{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.img-blur{
+    z-index: -1; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.img-blur.img-style{
+    filter: blur(3px); 
+}
+.img-txt{
+    z-index: 1;
+}
+.img-txt.img-style{
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-shadow: 0 0 16px #000000, 0 0 16px #000000; 
+}
+
 @media (max-width: 575px) {
     .fs-container {
         max-width: 90%;
