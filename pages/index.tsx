@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         </div>
         <div className="fs-outer fs-mwfull fs-wfull">
           <div className="fs-inner text-white fs-aspectWIDE-hor bg-black fs-wfull">
-            <div id="txt-typewriter" className="fs-py10 fs-px20 ts-l15xl"></div>
+            <div id="txt-typewriter" className="fs-py10 fs-px20 ts-l15xl ts-3xl "></div>
           </div>
         </div>
       </div>
