@@ -38,6 +38,38 @@
 		width: 0;
 	}
 }
+@-webkit-keyframes passing-bar-max{
+	0% {
+		left: 0;
+		right: auto;
+		width: 0;
+	}
+	50% {
+		left: 0;
+		right: auto;
+		width: 50%;
+	}
+	100% {
+		left: 0;
+		right: auto;
+		width: 105%;
+	}
+}
+@keyframes passing-bar-max{
+	0% {
+		left: 0;
+		width: 0;
+	}
+	50% {
+		left: 0;
+		width: 50%;
+	}
+	100% {
+		left: 0;
+		width: 105%;
+	}
+}
+
 @-webkit-keyframes passing-txt{
 	0% { opacity: 0; }
 	50% { opacity: 0; }
