@@ -1,6 +1,9 @@
 .ts-nodeco{
 	text-decoration: none;
 }
+.ts-center{
+	text-align: center;
+}
 .ts-nodeco:visited{
 	color: inherit;
 }

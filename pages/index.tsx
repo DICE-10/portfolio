@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Layout title="Home">
       <div className="fs-grid m-grid-col-2 fs-w11_12 fs-mcenter">
-        <div className="fs-outer fs-mwfull fs-wfull ">
+        <div className="fs-outer fs-mwfull fs-wfull ts-center">
           <div className="fs-inner fs-aspectWIDE-hor fs-wfull">
             <div className="ts-l30xl ts-8xl font-w-bold fs-my5 fs-py5">
               <div className="passing move1 ">
