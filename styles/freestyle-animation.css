@@ -1,0 +1,110 @@
+@-webkit-keyframes passing-bar{
+	0% {
+		left: 0;
+		right: auto;
+		width: 0;
+	}
+	50% {
+		left: 0;
+		right: auto;
+		width: 110%;
+	}
+	51% {
+		left: auto;
+		right: 0;
+		width: 110%;
+	}
+	100% {
+		left: auto;
+		right: 0;
+		width: 0;
+	}
+}
+@keyframes passing-bar{
+	0% {
+		left: 0;
+		width: 0;
+	}
+	50% {
+		left: 0;
+		width: 110%;
+	}
+	51% {
+		left: 0;
+		width: 110%;
+	}
+	100% {
+		left: 110%;
+		width: 0;
+	}
+}
+@-webkit-keyframes passing-txt{
+	0% { opacity: 0; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes passing-txt{
+	0% { opacity:0; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+/* css */
+.passing .passing-box {
+	display: block;
+	/*text-align: center;*/
+}
+.passing .passing-bar {
+	position: relative;
+	display: inline-block;
+	/*　後ほど解説　*/
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.passing .passing-bar:before {
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	/* 任意の値 */
+	background: #000;
+}
+.passing .passing-txt {
+	opacity: 0;
+	/* 後ほど解説 */
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.passing.move1 .passing-bar:before {
+	-webkit-animation: passing-bar 1s ease 0s 1 normal forwards;
+	animation: passing-bar 1s ease 0s 1 normal forwards;
+}
+.passing.move1 .passing-txt {
+	-webkit-animation: passing-txt 0s ease .5s 1 normal forwards;
+	animation:passing-txt 0s ease .5s 1 normal forwards;
+}
+
+.passing.move2 .passing-bar:before {
+	-webkit-animation: passing-bar 1s ease 0s 1 normal forwards;
+	animation: passing-bar 1s ease 0s 1 normal forwards;
+    animation-delay: .5s;
+}
+.passing.move2 .passing-txt {
+	-webkit-animation: passing-txt .5s ease 1s 1 normal forwards;
+	animation:passing-txt .5s ease 1s 1 normal forwards;
+    animation-delay: .7s;
+}
+
+.passing.move3 .passing-bar:before {
+	-webkit-animation: passing-bar 1s ease 0s 1 normal forwards;
+	animation: passing-bar 1s ease 0s 1 normal forwards;
+}
+.passing.move3 .passing-txt {
+	-webkit-animation: passing-txt 0s ease .5s 1 normal forwards;
+	animation:passing-txt 0s ease .5s 1 normal forwards;
+}

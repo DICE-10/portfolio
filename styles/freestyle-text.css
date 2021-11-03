@@ -454,7 +454,427 @@
 .text-mediumslateblue{
 	color: #7b68ee;
 }
+/* is-animated */
 
-
+.text-black.is-animated{
+	color: #000000;
+}
+.text-aliceblue.is-animated{
+	color: #f0f8ff;
+}
+.text-darkcyan.is-animated{
+	color: #008b8b;
+}
+.text-lightyellow.is-animated{
+	color: #ffffe0;
+}
+.text-coral.is-animated{
+	color: #ff7f50;
+}
+.text-dimgray.is-animated{
+	color: #696969;
+}	
+.text-lavender.is-animated{
+	color: #e6e6fa;
+}
+.text-teal.is-animated{
+	color: #008080;
+}
+.text-lightgoldenrodyellow.is-animated{
+	color: #fafad2;
+}
+.text-tomato.is-animated{
+	color: #ff6347;
+}
+.text-gray.is-animated{
+	color: #808080;
+}
+.text-lightsteelblue.is-animated{
+	color: #b0c4de;
+}
+.text-darkslategray.is-animated{
+	color: #2f4f4f;
+}
+.text-lemonchiffon.is-animated{
+	color: #fffacd;
+}
+.text-orangered.is-animated{
+	color: #ff4500;
+}
+.text-darkgray.is-animated{
+	color: #a9a9a9;
+}
+.text-lightslategray.is-animated{
+	color: #778899;
+}
+.text-darkgreen.is-animated{
+	color: #006400;
+}
+.text-wheat.is-animated{
+	color: #f5deb3;
+}	
+.text-red.is-animated{
+	color: #ff0000;
+}
+.text-silver.is-animated{
+	color: #c0c0c0;
+}	
+.text-slategray.is-animated{
+	color: #708090;
+}
+.text-green.is-animated{
+	color: #008000;
+}	
+.text-burlywood.is-animated{
+	color: #deb887;
+}	
+.text-crimson.is-animated{
+	color: #dc143c;
+}
+.text-lightgray.is-animated{
+	color: #d3d3d3;
+}	
+.text-steelblue.is-animated{
+	color: #4682b4;
+}	
+.text-forestgreen.is-animated{
+	color: #228b22;
+}	
+.text-tan.is-animated{
+	color: #d2b48c;
+}	
+.text-mediumvioletred.is-animated{
+	color: #c71585;
+}
+.text-gainsboro.is-animated{
+	color: #dcdcdc;
+}	
+.text-royalblue.is-animated{
+	color: #4169e1;
+}	
+.text-seagreen.is-animated{
+	color: #2e8b57;
+}	
+.text-khaki.is-animated{
+	color: #f0e68c;
+}	
+.text-deeppink.is-animated{
+	color: #ff1493;
+}
+.text-whitesmoke.is-animated{
+	color: #f5f5f5;
+}	
+.text-midnightblue.is-animated{
+	color: #191970;
+}
+.text-mediumseagreen.is-animated{
+	color: #3cb371;
+}
+.text-yellow.is-animated{
+	color: #ffff00;
+}
+.text-hotpink.is-animated{
+	color: #ff69b4;
+}
+.text-white.is-animated{
+	color: #ffffff;
+}
+.text-navy.is-animated{
+	color: #000080;
+}
+.text-mediumaquamarine.is-animated{
+	color: #66cdaa;
+}
+.text-gold.is-animated{
+	color: #ffd700;
+}
+.text-palevioletred.is-animated{
+	color: #db7093;
+}
+.text-snow.is-animated{
+	color: #fffafa;
+}
+.text-darkblue.is-animated{
+	color: #00008b;
+}
+.text-darkseagreen.is-animated{
+	color: #8fbc8f;
+}
+.text-orange.is-animated{
+	color: #ffa500;
+}
+.text-pink.is-animated{
+	color: #ffc0cb;
+}
+.text-ghostwhite.is-animated{
+	color: #f8f8ff;
+}
+.text-mediumblue.is-animated{
+	color: #0000cd;
+}
+.text-aquamarine.is-animated{
+	color: #7fffd4;
+}
+.text-sandybrown.is-animated{
+	color: #f4a460;
+}
+.text-lightpink.is-animated{
+	color: #ffb6c1;
+}
+.text-floralwhite.is-animated{
+	color: #fffaf0;
+}
+.text-blue.is-animated{
+	color: #0000ff;
+}
+.text-palegreen.is-animated{
+	color: #98fb98;
+}
+.text-darkorange.is-animated{
+	color: #ff8c00;
+}
+.text-thistle.is-animated{
+	color: #d8bfd8;
+}
+.text-linen.is-animated{
+	color: #faf0e6;
+}
+.text-dodgerblue.is-animated{
+	color: #1e90ff;
+}
+.text-lightgreen.is-animated{
+	color: #90ee90;
+}
+.text-goldenrod.is-animated{
+	color: #daa520;
+}
+.text-magenta.is-animated{
+	color: #ff00ff;
+}
+.text-antiquewhite.is-animated{
+	color: #faebd7;
+}
+.text-cornflowerblue.is-animated{
+	color: #6495ed;
+}
+.text-springgreen.is-animated{
+	color: #00ff7f;
+}
+.text-peru.is-animated{
+	color: #cd853f;
+}
+.text-fuchsia.is-animated{
+	color: #ff00ff;
+}
+.text-papayawhip.is-animated{
+	color: #ffefd5;
+}
+.text-deepskyblue.is-animated{
+	color: #00bfff;
+}
+.text-mediumspringgreen.is-animated{
+	color: #00fa9a;
+}
+.text-darkgoldenrod.is-animated{
+	color: #b8860b;
+}
+.text-violet.is-animated{
+	color: #ee82ee;
+}
+.text-blanchedalmond.is-animated{
+	color: #ffebcd;
+}
+.text-lightskyblue.is-animated{
+	color: #87cefa;
+}
+.text-lawngreen.is-animated{
+	color: #7cfc00;
+}
+.text-chocolate.is-animated{
+	color: #d2691e;
+}
+.text-plum.is-animated{
+	color: #dda0dd;
+}
+.text-bisque.is-animated{
+	color: #ffe4c4;
+}
+.text-skyblue.is-animated{
+	color: #87ceeb;
+}
+.text-chartreuse.is-animated{
+	color: #7fff00;
+}
+.text-sienna.is-animated{
+	color: #a0522d;
+}
+.text-orchid.is-animated{
+	color: #da70d6;
+}
+.text-moccasin.is-animated{
+	color: #ffe4b5;
+}
+.text-lightblue.is-animated{
+	color: #add8e6;
+}
+.text-greenyellow.is-animated{
+	color: #adff2f;
+}
+.text-saddlebrown.is-animated{
+	color: #8b4513;
+}
+.text-mediumorchid.is-animated{
+	color: #ba55d3;
+}
+.text-navajowhite.is-animated{
+	color: #ffdead;
+}
+.text-powderblue.is-animated{
+	color: #b0e0e6;
+}
+.text-lime.is-animated{
+	color: #00ff00;
+}
+.text-maroon.is-animated{
+	color: #800000;
+}
+.text-darkorchid.is-animated{
+	color: #9932cc;
+}
+.text-peachpuff.is-animated{
+	color: #ffdab9;
+}
+.text-paleturquoise.is-animated{
+	color: #afeeee;
+}
+.text-limegreen.is-animated{
+	color: #32cd32;
+}
+.text-darkred.is-animated{
+	color: #8b0000;
+}
+.text-darkviolet.is-animated{
+	color: #9400d3;
+}
+.text-mistyrose.is-animated{
+	color: #ffe4e1;
+}
+.text-lightcyan.is-animated{
+	color: #e0ffff;
+}
+.text-yellowgreen.is-animated{
+	color: #9acd32;
+}
+.text-brown.is-animated{
+	color: #a52a2a;
+}
+.text-darkmagenta.is-animated{
+	color: #8b008b;
+}
+.text-lavenderblush.is-animated{
+	color: #fff0f5;
+}
+.text-cyan.is-animated{
+	color: #00ffff;
+}
+.text-darkolivegreen.is-animated{
+	color: #556b2f;
+}
+.text-firebrick.is-animated{
+	color: #b22222;
+}
+.text-purple.is-animated{
+	color: #800080;
+}
+.text-seashell.is-animated{
+	color: #fff5ee;
+}
+.text-aqua.is-animated{
+	color: #00ffff;
+}
+.text-olivedrab.is-animated{
+	color: #6b8e23;
+}
+.text-indianred.is-animated{
+	color: #cd5c5c;
+}
+.text-indigo.is-animated{
+	color: #4b0082;
+}
+.text-oldlace.is-animated{
+	color: #fdf5e6;
+}
+.text-turquoise.is-animated{
+	color: #40e0d0;
+}
+.text-olive.is-animated{
+	color: #808000;
+}
+.text-rosybrown.is-animated{
+	color: #bc8f8f;
+}
+.text-darkslateblue.is-animated{
+	color: #483d8b;
+}
+.text-ivory.is-animated{
+	color: #fffff0;
+}
+.text-mediumturquoise.is-animated{
+	color: #48d1cc;
+}
+.text-darkkhaki.is-animated{
+	color: #bdb76b;
+}
+.text-darksalmon.is-animated{
+	color: #e9967a;
+}
+.text-blueviolet.is-animated{
+	color: #8a2be2;
+}
+.text-honeydew.is-animated{
+	color: #f0fff0;
+}
+.text-darkturquoise.is-animated{
+	color: #00ced1;
+}
+.text-palegoldenrod.is-animated{
+	color: #eee8aa;
+}
+.text-lightcoral.is-animated{
+	color: #f08080;
+}
+.text-mediumpurple.is-animated{
+	color: #9370db;
+}
+.text-mintcream.is-animated{
+	color: #f5fffa;
+}
+.text-lightseagreen.is-animated{
+	color: #20b2aa;
+}
+.text-cornsilk.is-animated{
+	color: #fff8dc;
+}
+.text-salmon.is-animated{
+	color: #fa8072;
+}
+.text-slateblue.is-animated{
+	color: #6a5acd;
+}
+.text-azure.is-animated{
+	color: #f0ffff;
+}
+.text-cadetblue.is-animated{
+	color: #5f9ea0;
+}
+.text-beige.is-animated{
+	color: #f5f5dc;
+}
+.text-lightsalmon.is-animated{
+	color: #ffa07a;
+}
+.text-mediumslateblue.is-animated{
+	color: #7b68ee;
+}
 
 /*Japanese colors*/

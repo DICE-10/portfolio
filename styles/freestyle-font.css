@@ -62,6 +62,56 @@
     font-size: 3rem;
 }
 
+.ts-16xl{
+    font-size: 3.125rem;
+    line-height: 1.75rem;
+}
+.ts-17xl{
+    font-size: 3.25rem;
+}
+.ts-18xl{
+    font-size: 3.375rem;
+}
+.ts-19xl{
+    font-size: 3.5rem;
+}
+.ts-20xl{
+    font-size: 3.625rem;
+}
+.ts-21xl{
+    font-size: 3.75rem;
+}
+.ts-22xl{
+    font-size: 3.875rem;
+    line-height: 2.5rem;
+}
+.ts-23xl{
+    font-size: 4rem;
+}
+.ts-24xl{
+    font-size: 4.125rem;
+}
+.ts-25xl{
+    font-size: 4.25rem;
+}
+.ts-26xl{
+    font-size: 4.375rem;
+}
+.ts-27xl{
+    font-size: 4.5rem;
+}
+.ts-28xl{
+    font-size: 4.625rem;
+}
+.ts-29xl{
+    font-size: 4.75rem;
+}
+.ts-30xl{
+    font-size: 4.875rem;
+}
+.ts-31xl{
+    font-size: 5rem;
+}
 /*フォント*/
 .font-Arial-s{
     font-family: 'Arial',serif;
@@ -157,7 +207,7 @@
 .font-w-normal{
     font-weight: normal;
 }
-.font-wbold{
+.font-w-bold{
     font-weight: bold;
 }
 .font-w-lighter{
@@ -168,13 +218,352 @@
 }
 
 @media (min-width: 576px) {
+    .ts-sbase{
+	    font-size: 1rem;
+	    line-height: 1.5rem;
+	}
+	.ts-sxs{
+	    font-size: 0.75rem;
+	    line-height: 1rem;
+	}
+	.ts-ssm{
+	    font-size: 0.875rem;
+	    line-height: 1.25rem;
+	}
+	.ts-slg{
+	    font-size: 1.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-sxl{
+	    font-size: 1.25rem;
+	    line-height: 1.75rem;
+	}
+	.ts-s2xl{
+	    font-size: 1.375rem;
+	}
+	.ts-s3xl{
+	    font-size: 1.5rem;
+	}
+	.ts-s4xl{
+	    font-size: 1.625rem;
+	}
+	.ts-s5xl{
+	    font-size: 1.75rem;
+	}
+	.ts-s6xl{
+	    font-size: 1.875rem;
+	}
+	.ts-s7xl{
+	    font-size: 2rem;
+	    line-height: 2.5rem;
+	}
+	.ts-s8xl{
+	    font-size: 2.125rem;
+	}
+	.ts-s9xl{
+	    font-size: 2.25rem;
+	}
+	.ts-s10xl{
+	    font-size: 2.375rem;
+	}
+	.ts-s11xl{
+	    font-size: 2.5rem;
+	}
+	.ts-s12xl{
+	    font-size: 2.625rem;
+	}
+	.ts-s13xl{
+	    font-size: 2.75rem;
+	}
+	.ts-s14xl{
+	    font-size: 2.875rem;
+	}
+	.ts-s15xl{
+	    font-size: 3rem;
+	}
 
+	.ts-s16xl{
+	    font-size: 3.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-s17xl{
+	    font-size: 3.25rem;
+	}
+	.ts-s18xl{
+	    font-size: 3.375rem;
+	}
+	.ts-s19xl{
+	    font-size: 3.5rem;
+	}
+	.ts-s20xl{
+	    font-size: 3.625rem;
+	}
+	.ts-s21xl{
+	    font-size: 3.75rem;
+	}
+	.ts-s22xl{
+	    font-size: 3.875rem;
+	    line-height: 2.5rem;
+	}
+	.ts-s23xl{
+	    font-size: 4rem;
+	}
+	.ts-s24xl{
+	    font-size: 4.125rem;
+	}
+	.ts-s25xl{
+	    font-size: 4.25rem;
+	}
+	.ts-s26xl{
+	    font-size: 4.375rem;
+	}
+	.ts-s27xl{
+	    font-size: 4.5rem;
+	}
+	.ts-s28xl{
+	    font-size: 4.625rem;
+	}
+	.ts-s29xl{
+	    font-size: 4.75rem;
+	}
+	.ts-s30xl{
+	    font-size: 4.875rem;
+	}
+	.ts-s31xl{
+	    font-size: 5rem;
+	}
 }
 @media (min-width: 768px) {
+    .ts-mbase{
+	    font-size: 1rem;
+	    line-height: 1.5rem;
+	}
+	.ts-mxs{
+	    font-size: 0.75rem;
+	    line-height: 1rem;
+	}
+	.ts-msm{
+	    font-size: 0.875rem;
+	    line-height: 1.25rem;
+	}
+	.ts-mlg{
+	    font-size: 1.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-mxl{
+	    font-size: 1.25rem;
+	    line-height: 1.75rem;
+	}
+	.ts-m2xl{
+	    font-size: 1.375rem;
+	}
+	.ts-m3xl{
+	    font-size: 1.5rem;
+	}
+	.ts-m4xl{
+	    font-size: 1.625rem;
+	}
+	.ts-m5xl{
+	    font-size: 1.75rem;
+	}
+	.ts-m6xl{
+	    font-size: 1.875rem;
+	}
+	.ts-m7xl{
+	    font-size: 2rem;
+	    line-height: 2.5rem;
+	}
+	.ts-m8xl{
+	    font-size: 2.125rem;
+	}
+	.ts-m9xl{
+	    font-size: 2.25rem;
+	}
+	.ts-m10xl{
+	    font-size: 2.375rem;
+	}
+	.ts-m11xl{
+	    font-size: 2.5rem;
+	}
+	.ts-m12xl{
+	    font-size: 2.625rem;
+	}
+	.ts-m13xl{
+	    font-size: 2.75rem;
+	}
+	.ts-m14xl{
+	    font-size: 2.875rem;
+	}
+	.ts-m15xl{
+	    font-size: 3rem;
+	}
 
+	.ts-m16xl{
+	    font-size: 3.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-m17xl{
+	    font-size: 3.25rem;
+	}
+	.ts-m18xl{
+	    font-size: 3.375rem;
+	}
+	.ts-m19xl{
+	    font-size: 3.5rem;
+	}
+	.ts-m20xl{
+	    font-size: 3.625rem;
+	}
+	.ts-m21xl{
+	    font-size: 3.75rem;
+	}
+	.ts-m22xl{
+	    font-size: 3.875rem;
+	    line-height: 2.5rem;
+	}
+	.ts-m23xl{
+	    font-size: 4rem;
+	}
+	.ts-m24xl{
+	    font-size: 4.125rem;
+	}
+	.ts-m25xl{
+	    font-size: 4.25rem;
+	}
+	.ts-m26xl{
+	    font-size: 4.375rem;
+	}
+	.ts-m27xl{
+	    font-size: 4.5rem;
+	}
+	.ts-m28xl{
+	    font-size: 4.625rem;
+	}
+	.ts-m29xl{
+	    font-size: 4.75rem;
+	}
+	.ts-m30xl{
+	    font-size: 4.875rem;
+	}
+	.ts-m31xl{
+	    font-size: 5rem;
+	}
 }
 @media (min-width: 992px) {
+    .ts-lbase{
+	    font-size: 1rem;
+	    line-height: 1.5rem;
+	}
+	.ts-lxs{
+	    font-size: 0.75rem;
+	    line-height: 1rem;
+	}
+	.ts-lsm{
+	    font-size: 0.875rem;
+	    line-height: 1.25rem;
+	}
+	.ts-llg{
+	    font-size: 1.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-lxl{
+	    font-size: 1.25rem;
+	    line-height: 1.75rem;
+	}
+	.ts-l2xl{
+	    font-size: 1.375rem;
+	}
+	.ts-l3xl{
+	    font-size: 1.5rem;
+	}
+	.ts-l4xl{
+	    font-size: 1.625rem;
+	}
+	.ts-l5xl{
+	    font-size: 1.75rem;
+	}
+	.ts-l6xl{
+	    font-size: 1.875rem;
+	}
+	.ts-l7xl{
+	    font-size: 2rem;
+	    line-height: 2.5rem;
+	}
+	.ts-l8xl{
+	    font-size: 2.125rem;
+	}
+	.ts-l9xl{
+	    font-size: 2.25rem;
+	}
+	.ts-l10xl{
+	    font-size: 2.375rem;
+	}
+	.ts-l11xl{
+	    font-size: 2.5rem;
+	}
+	.ts-l12xl{
+	    font-size: 2.625rem;
+	}
+	.ts-l13xl{
+	    font-size: 2.75rem;
+	}
+	.ts-l14xl{
+	    font-size: 2.875rem;
+	}
+	.ts-l15xl{
+	    font-size: 3rem;
+	}
 
+	.ts-l16xl{
+	    font-size: 3.125rem;
+	    line-height: 1.75rem;
+	}
+	.ts-l17xl{
+	    font-size: 3.25rem;
+	}
+	.ts-l18xl{
+	    font-size: 3.375rem;
+	}
+	.ts-l19xl{
+	    font-size: 3.5rem;
+	}
+	.ts-l20xl{
+	    font-size: 3.625rem;
+	}
+	.ts-l21xl{
+	    font-size: 3.75rem;
+	}
+	.ts-l22xl{
+	    font-size: 3.875rem;
+	    line-height: 2.5rem;
+	}
+	.ts-l23xl{
+	    font-size: 4rem;
+	}
+	.ts-l24xl{
+	    font-size: 4.125rem;
+	}
+	.ts-l25xl{
+	    font-size: 4.25rem;
+	}
+	.ts-l26xl{
+	    font-size: 4.375rem;
+	}
+	.ts-l27xl{
+	    font-size: 4.5rem;
+	}
+	.ts-l28xl{
+	    font-size: 4.625rem;
+	}
+	.ts-l29xl{
+	    font-size: 4.75rem;
+	}
+	.ts-l30xl{
+	    font-size: 4.875rem;
+	}
+	.ts-l31xl{
+	    font-size: 5rem;
+	}
 }
 @media (min-width: 1200px) {
 
