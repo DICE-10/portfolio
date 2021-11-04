@@ -15,14 +15,14 @@ const Home: NextPage = () => {
 }, []);
   
   const setAnimation = () => {
-    gsap.to("#txt-typewriter", {
+    /*gsap.to("#txt-typewriter", {
       duration: 8, //アニメーション時間（秒）
       text: {
         value: "Don’t play what’s there,<br/>play what’s not there.<br/> Don’t play what you know,<br/>play what you don’t know.<br/>I have to change,<br/>It’s like a curse.", //表示するテキスト
         delimiter: "",  //区切り文字
       },
       ease: "ease",  // アニメーションのタイミング・進行割合を指定する
-    })
+    })*/
   }
   return (
     <Layout title="Home">
@@ -53,7 +53,132 @@ const Home: NextPage = () => {
         </div>
         <div className="fs-outer fs-mwfull fs-wfull">
           <div className="fs-inner text-white fs-aspectWIDE-hor bg-black fs-wfull">
-            <div id="txt-typewriter" className="fs-py10 fs-px20 ts-l15xl ts-3xl "></div>
+            <div className="typewriter fs-py10 fs-px20 ts-l15xl ts-3xl ">
+              <span>D</span>
+              <span>o</span>
+              <span>n&#39;</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>p</span>
+              <span>l</span>
+              <span>a</span>
+              <span>y</span>
+              <span>&nbsp;</span>
+              <span>w</span>
+              <span>h</span>
+              <span>a</span>
+              <span>t&#39;</span>
+              <span>s</span>
+              <span>&nbsp;</span>
+              <span>t</span>
+              <span>h</span>
+              <span>e</span>
+              <span>r</span>
+              <span>e,</span><br/>
+              <span>p</span>
+              <span>l</span>
+              <span>a</span>
+              <span>y</span>
+              <span></span>
+              <span>w</span>
+              <span>h</span>
+              <span>a</span>
+              <span>t&#39;</span>
+              <span>s</span>
+              <span>&nbsp;</span>
+              <span>n</span>
+              <span>o</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>t</span>
+              <span>h</span>
+              <span>e</span>
+              <span>r</span>
+              <span>e</span>
+              <span>.</span><br/>
+              <span>D</span>
+              <span>o</span>
+              <span>n&#39;</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>p</span>
+              <span>l</span>
+              <span>a</span>
+              <span>y</span>
+              <span>&nbsp;</span>
+              <span>w</span>
+              <span>h</span>
+              <span>a</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>y</span>
+              <span>o</span>
+              <span>u</span>
+              <span>&nbsp;</span>
+              <span>k</span>
+              <span>n</span>
+              <span>o</span>
+              <span>w</span>
+              <span>,</span><br/>
+              <span>p</span>
+              <span>l</span>
+              <span>a</span>
+              <span>y</span>
+              <span>&nbsp;</span>
+              <span>w</span>
+              <span>h</span>
+              <span>a</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>y</span>
+              <span>o</span>
+              <span>u</span>
+              <span>&nbsp;</span>
+              <span>d</span>
+              <span>o</span>
+              <span>n&#39;</span>
+              <span>t</span>
+              <span>&nbsp;</span>
+              <span>k</span>
+              <span>n</span>
+              <span>o</span>
+              <span>w</span>
+              <span>.</span><br/>
+              <span>I</span>
+              <span>&nbsp;</span>
+              <span>h</span>
+              <span>a</span>
+              <span>v</span>
+              <span>e</span>
+              <span>&nbsp;</span>
+              <span>t</span>
+              <span>o</span>
+              <span>&nbsp;</span>
+              <span>c</span>
+              <span>h</span>
+              <span>a</span>
+              <span>n</span>
+              <span>g</span>
+              <span>e</span>
+              <span>,</span><br/>
+              <span>I</span>
+              <span>t&#39;</span>
+              <span>s</span>
+              <span>&nbsp;</span>
+              <span>l</span>
+              <span>i</span>
+              <span>k</span>
+              <span>e</span>
+              <span>&nbsp;</span>
+              <span>a</span>
+              <span>&nbsp;</span>
+              <span>c</span>
+              <span>u</span>
+              <span>r</span>
+              <span>s</span>
+              <span>e</span>
+              <span>.</span>
+            </div>
           </div>
         </div>
       </div>
