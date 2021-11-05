@@ -7,7 +7,7 @@ import { gsap } from 'gsap'
 import { TextPlugin } from 'gsap/dist/TextPlugin';
 import { useEffect } from 'react'
 const Home: NextPage = () => {
-  useEffect(() => {
+ /* useEffect(() => {
     if (process.browser) {
         gsap.registerPlugin(TextPlugin)
         setAnimation();
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       },
       ease: "ease",  // アニメーションのタイミング・進行割合を指定する
     })
-  }
+  }*/
   return (
     <Layout title="Home">
       <div className="fs-grid m-grid-col-2 fs-wfull fs-mcenter">
