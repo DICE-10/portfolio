@@ -1,14 +1,14 @@
 @charset "UTF-8";
-@import "freestyle-text.css";
-@import "freestyle-bg.css";
-@import "freestyle-padding.css";
-@import "freestyle-margin.css";
-@import "freestyle-width.css";
-@import "freestyle-height.css";
-@import "freestyle-font.css";
-@import "freestyle-balloon.css";
-@import "freestyle-link.css";
-@import "freestyle-animation.css";
+@import "freestyle-text.min.css";
+@import "freestyle-bg.min.css";
+@import "freestyle-padding.min.css";
+@import "freestyle-margin.min.css";
+@import "freestyle-width.min.css";
+@import "freestyle-height.min.css";
+@import "freestyle-font.min.css";
+@import "freestyle-balloon.min.css";
+@import "freestyle-link.min.css";
+@import "freestyle-animation.min.css";
 
 
 :root{

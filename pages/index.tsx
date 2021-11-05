@@ -9,24 +9,14 @@ const Home: NextPage = () => {
       <div className="fs-grid m-grid-col-2 fs-wfull fs-mcenter">
         <div className="fs-outer fs-mwfull fs-wfull ts-center">
           <div className="fs-inner fs-aspectWIDE-hor fs-wfull">
-            <div className="ts-l30xl ts-8xl font-w-bold fs-my5 fs-py5">
-              <div className="passing move1 ">
-                <div className="passing-box">
-                  <div className="passing-bar">
-                    <div className="passing-txt">
-                      Developer
-                    </div>
-                  </div>
-                </div>
+            <div className="ts-l30xl ts-8xl font-w-bold fs-my5 fs-py5 textin">
+              <div className="textin">
+                <span className="lr-in">Developer</span>
               </div>
             </div>
             <div className="ts-l30xl ts-8xl font-w-bold fs-my5 fs-py5">
-            <div className="passing move2">
-                <div className="passing-box">
-                  <div className="passing-bar">
-                    <div className="passing-txt">Programmer</div>
-                  </div>
-                </div>
+              <div className="textin">
+                <span className="lr-in">Programmer</span>
               </div>
             </div>
           </div>
